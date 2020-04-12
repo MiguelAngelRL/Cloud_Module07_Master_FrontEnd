@@ -1,4 +1,6 @@
 # Module07_Assessments_Master_FrontEnd
 This repository is intented for storing and sharing the Master's mandatory and optional exercises
 
-Should you want to pull the docker image use the following name: **miguelangelrl/cloud_exercise:1.0**
+Should you want to pull a docker image, use either of the following ones: **miguelangelrl/cloud_exercise:1.0** -which was generated and uploaded manually- or  **miguelangelrl/masterlemoncode_cloud_exercise** -which was generated and uploaded automatically from Travis-CI.
+
+[![Build Status](https://travis-ci.com/MiguelAngelRL/Module07_Assessments_Master_FrontEnd.svg?branch=master)](https://travis-ci.com/MiguelAngelRL/Module07_Assessments_Master_FrontEnd)
