@@ -1,0 +1,10 @@
+sudo: required
+services:
+  - docker
+script:
+  - sudo docker build -t cloud_exercise .
+after_success:
+  - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+  - docker tag cloud_exercise $DOCKER_USER/masterlemoncode_cloud_exercise
+  - docker push $DOCKER_USER/masterlemoncode_cloud_exercise
+
